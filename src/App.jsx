@@ -4,6 +4,7 @@ import Lengths from "./Components/Lengths";
 import "./Components/Lengths.sass";
 import Display from "./Components/Display";
 import "./Components/Display.sass";
+import "./assets/Righteous/Righteous-Regular.woff";
 
 class App extends Component {
   render() {
@@ -16,8 +17,16 @@ class App extends Component {
             </div>
             <Lengths />
           </div>
-          <Display />
-          <div className="pomodoro-clock__controls" />
+          <div className="pomodoro-clock__bottom-tab">
+            <Display />
+            <div className="pomodoro-clock__controls">
+              <div class="pomodoro-clock__controls__play-pause">
+                <i className="fas fa-play" />
+                <i className="fas fa-pause" />
+              </div>
+              <i className="fas fa-redo" />
+            </div>
+          </div>
         </div>
       </main>
     );
