@@ -9,9 +9,19 @@ class Lengths extends Component {
             Break Length
           </span>
           <div class="lengths__length-switch__adjs">
-            <i className="fas fa-arrow-down" />
-            <span className="lengths__length-switch__adjs__counter">5</span>
-            <i className="fas fa-arrow-up" />
+            <i
+              onClick={this.props.arrowHandler}
+              id="break-down"
+              className="fas fa-arrow-down"
+            />
+            <span className="lengths__length-switch__adjs__counter">
+              {this.props.bLength}
+            </span>
+            <i
+              onClick={this.props.arrowHandler}
+              id="break-up"
+              className="fas fa-arrow-up"
+            />
           </div>
         </div>
         {/*  */}
@@ -20,9 +30,19 @@ class Lengths extends Component {
             Session Length
           </span>
           <div class="lengths__length-switch__adjs">
-            <i className="fas fa-arrow-down" />
-            <span className="lengths__length-switch__adjs__counter">5</span>
-            <i className="fas fa-arrow-up" />
+            <i
+              onClick={this.props.arrowHandler}
+              id="session-down"
+              className="fas fa-arrow-down"
+            />
+            <span className="lengths__length-switch__adjs__counter">
+              {this.props.sLength}
+            </span>
+            <i
+              onClick={this.props.arrowHandler}
+              id="session-up"
+              className="fas fa-arrow-up"
+            />
           </div>
         </div>
       </div>
