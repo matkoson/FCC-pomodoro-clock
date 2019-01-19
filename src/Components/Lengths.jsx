@@ -8,7 +8,7 @@ class Lengths extends Component {
           <span className="pomodoro-clock-lengths__break-length__title pomodoro-clock-lengths__title">
             Break Length
           </span>
-          <div class="lengths__length-switch__adjs">
+          <div className="lengths__length-switch__adjs">
             <i
               onClick={this.props.arrowHandler}
               id="break-down"
@@ -25,11 +25,11 @@ class Lengths extends Component {
           </div>
         </div>
         {/*  */}
-        <div className="lengths__length-switch  pomodoro-clock-lengths__session-length">
+        <div className="lengths__length-switch  pomodoro-clock-lengths__session-length lengths__length-switch-session">
           <span className="pomodoro-clock-lengths__session-length__title pomodoro-clock-lengths__title">
             Session Length
           </span>
-          <div class="lengths__length-switch__adjs">
+          <div className="lengths__length-switch__adjs">
             <i
               onClick={this.props.arrowHandler}
               id="session-down"

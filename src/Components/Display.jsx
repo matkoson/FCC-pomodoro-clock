@@ -14,7 +14,7 @@ class Display extends Component {
     if (Number(secs) < 10) secs = `0${secs}`;
 
     return (
-      <div className="display">
+      <div style={this.props.styleColor} className="display">
         <div className="display__mode">
           <span className="display__mode__title">{this.props.curMod}</span>
         </div>
