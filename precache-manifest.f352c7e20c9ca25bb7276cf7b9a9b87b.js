@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/FCC-pomodoro-clock/static/media/Digital-7Mono.735c38f8.woff"
   },
   {
-    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
-    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.7d43b9ae.eot"
+    "revision": "b89c6c51aa2999159a6667f97a46a346",
+    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.b89c6c51.woff2"
   },
   {
-    "revision": "dd4ff1196905f0585aef2c80486869e9",
-    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.dd4ff119.woff"
+    "revision": "7d43b9ae0b8bb1d0dc425d78dc577b0a",
+    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.7d43b9ae.eot"
   },
   {
     "revision": "50a544b5ad4d512e8db3cdc089823a00",
     "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.50a544b5.ttf"
   },
   {
-    "revision": "b89c6c51aa2999159a6667f97a46a346",
-    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.b89c6c51.woff2"
+    "revision": "dd4ff1196905f0585aef2c80486869e9",
+    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.dd4ff119.woff"
   },
   {
     "revision": "14a581bec8b413dc26ed",
@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/FCC-pomodoro-clock/static/media/fa-regular-400.deb8619e.ttf"
   },
   {
+    "revision": "fef43c1fd872ef7f1880483d9b63ccf2",
+    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.fef43c1f.svg"
+  },
+  {
     "revision": "734248d027cbaac7f03c0d931ec95593",
     "url": "/FCC-pomodoro-clock/static/media/fa-regular-400.734248d0.svg"
   },
@@ -68,20 +72,16 @@ self.__precacheManifest = [
     "url": "/FCC-pomodoro-clock/static/media/fa-solid-900.f72d546a.eot"
   },
   {
-    "revision": "fef43c1fd872ef7f1880483d9b63ccf2",
-    "url": "/FCC-pomodoro-clock/static/media/fa-brands-400.fef43c1f.svg"
-  },
-  {
     "revision": "8086e197694282b26c7b729945ecc377",
     "url": "/FCC-pomodoro-clock/static/media/fa-solid-900.8086e197.woff2"
   },
   {
-    "revision": "52b8345b6d8e11988d8db917c366b4da",
-    "url": "/FCC-pomodoro-clock/static/media/fa-solid-900.52b8345b.woff"
-  },
-  {
     "revision": "1709a2810c3752483683f3f7d287aa89",
     "url": "/FCC-pomodoro-clock/static/media/fa-solid-900.1709a281.ttf"
+  },
+  {
+    "revision": "52b8345b6d8e11988d8db917c366b4da",
+    "url": "/FCC-pomodoro-clock/static/media/fa-solid-900.52b8345b.woff"
   },
   {
     "revision": "a1ce1196605d1f7be939",
